@@ -31,7 +31,11 @@ body {
   background-color: #61c3f8;
   margin-left: 80px;
   margin-top: 35px;
-  /* margin-top: 50px; */
+  overflow: hidden;
+}
+.myPhoto {
+  width: 140px;
+  height: 164px;
 }
 .header__user {
   display: inline-block;
@@ -85,13 +89,25 @@ body {
   display: inline-block;
   color: #354adc;
 }
+/* content */
+.content {
+  height: 500px;
+  margin: 0 80px;
+  background-color: aquamarine;
+  overflow: hidden;
+}
+/* about */
+.about {
+  width: 240px;
+  background-color: bisque;
+  overflow: hidden;
+}
 
 /* footer */
 .footer {
-  position: absolute;
+  position: fixed;
+  width: 1024px;
   bottom: 0;
-  left: 0;
-  width: 100%;
   height: 72px;
   font-family: 'Montserrat', sans-serif;
   background-color: #354adc;
