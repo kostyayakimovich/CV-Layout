@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  margin: 0 auto;
+  width: 1024px;
+  position: relative;
+  min-height: 100%;
+}
+/* header */
+.header {
+  width: 100%;
+  height: 250px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #354adc;
+  overflow: hidden;
+}
+.header__photo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  background-color: #61c3f8;
+  margin-left: 80px;
+  margin-top: 35px;
+  /* margin-top: 50px; */
+}
+.header__user {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 80px;
+  margin-left: 40px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.header__user__name {
+  overflow: hidden;
+}
+.header__user__profession {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.header__user__helper {
+  color: #354adc;
+}
+.header__info {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 40px;
+  width: 160px;
+  margin: 0 177px;
+  color: #ffffff;
+}
+.header__info__text {
+  display: inline-block;
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.header__phone {
+  margin-top: 10px;
+}
+.header__info__img {
+  display: inline-block;
+  margin-bottom: 19px;
+}
+.header__phone__img {
+  margin-bottom: 2px;
+}
+.header__info__img:hover,
+.header__phone__img:hover {
+  filter: invert(1);
+  cursor: pointer;
+}
+.header__info__helper {
+  display: inline-block;
+  color: #354adc;
+}
+
+/* footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #354adc;
+}
+.footer__content {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 20px 80px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.footer__content__text {
+  display: inline-block;
+  overflow: hidden;
+}
+.footer__content__info {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__content {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 18px 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer__content {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer__content {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .footer__content {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
